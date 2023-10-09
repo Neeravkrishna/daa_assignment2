@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why is merge sort?</title>
+    <link rel="stylesheet" href="./whymerge.css">
+</head>
+<body>
+    <h2 style="color: chocolate;font-size: xx-large;"class="questions">Why merge sort?</h2>
+    <p>Merge sort is a popular and efficient sorting algorithm that is used to sort a list or an array of elements. It is chosen for several reasons:
+        <ol class="points">
+        <li>Stability: <br> Merge sort is a stable sorting algorithm, which means that it maintains the relative order of equal elements in the sorted output.</li>
+        <br>
+        <li>Predictable Performance: <br> Merge sort has a consistent and predictable time complexity. <br>It guarantees O(n log n) time complexity in the worst, average, and best cases. This makes it suitable for sorting large datasets efficiently.</li>
+        <br>
+        <li>Divide and Conquer:  <br>Merge sort follows the divide-and-conquer paradigm. <br> It divides the input into smaller subproblems, recursively solves them, and then combines the results to obtain the sorted output.</li>
+        <br>
+        <li>Steady Memory Usage:  <br>Merge sort is an out-of-place sorting algorithm, which means it does not require large amounts of additional memory for sorting.  <br>It uses a temporary array to merge the subarrays, but the memory usage is stable and doesn't depend on the input data.</li>
+        <br>
+        <li>Adaptability: <br> Merge sort can be adapted for various data structures, not just arrays. It can be applied to linked lists, and it can be extended to handle custom data types.</li>
+        <br>
+        <li>Parallelism: <br> Merge sort can be efficiently parallelized. You can split the sorting process into multiple threads which can significantly speed up the sorting of large datasets.</li></ol>
+       
+        <p>While merge sort has many advantages, it also has some drawbacks. It may not be the fastest sorting algorithm for small datasets due to its relatively high constant factors, and it can require additional memory for the temporary array used in the merge step. However, in many practical scenarios where stability, predictability, and adaptability are important, merge sort is an excellent choice for sorting.</p>
+        <a href="daa_ass.html">Back</a>
+</body>
+</html>
